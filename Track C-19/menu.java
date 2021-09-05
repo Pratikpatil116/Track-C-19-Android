@@ -39,7 +39,7 @@ public class menu extends AppCompatActivity {
         }
         public void vaccination(View view){
 
-            Intent intent = new Intent(menu.this,vaccine.class);
+            Intent intent = new Intent(menu.this,vaccine.class); // this vaccination dashboard not create yet its just function for understanding
             startActivity(intent);
             finish();
 
